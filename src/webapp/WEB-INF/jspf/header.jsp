@@ -102,7 +102,7 @@
     <a href="#" id="logo"><img src="images/CabHUB.png" alt=""></a>
     <nav class="navbar">
         <a href="index.jsp">Home</a>
-        <a href="#">About Us</a>
+        <a href="aboutus.jsp">About Us</a>
         <a href="viewBookingDetails.jsp">Booking Details</a>
         <a href="availableCars.jsp">Car List</a>
         <a href="register.jsp">Register</a>

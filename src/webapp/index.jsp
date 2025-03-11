@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="images/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
     <title>Mega City Cab - Home</title>
     <style>
         /** {*/
@@ -322,7 +326,7 @@
         .fast-booking{
             background-size: cover;
             width: 100%;
-            background: url(images/secbg.png) center;
+            background: #2c2c2c;
         }
         .fast-booking .fast-hading{
             color: #ffc61a;
@@ -441,6 +445,8 @@
                 text-align: center;
             }
         }
+
+
     </style>
 </head>
 <body>
@@ -488,21 +494,22 @@
     <div class="background-text">
         <h2>book a <span>cab now</span></h2>
     </div>
-    <header class="header">
-        <a href="#" id="logo">
-            <img src="images/CabHUB.png" alt="Logo" width="157"></a>
+    <%@include file="WEB-INF/jspf/header.jsp"%>
+    <%--    <header class="header">--%>
+    <%--        <a href="#" id="logo">--%>
+    <%--            <img src="images/CabHUB.png" alt="Logo" width="157"></a>--%>
 
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="viewBookingDetails.jsp">Booking Details</a>
-            <a href="availableCars.jsp">Car List</a>
-            <a href="register.jsp">Register</a>
-            <a href="login.jsp">Login</a>
-            <a href="logout.jsp">Logout</a>
-        </nav>
-        <a href="#" id="menu-bars" class="fas fa-bars"></a>
-    </header>
+    <%--        <nav class="navbar">--%>
+    <%--            <a href="#">Home</a>--%>
+    <%--            <a href="#">About Us</a>--%>
+    <%--            <a href="../../target/viewBookingDetails.jsp">Booking Details</a>--%>
+    <%--            <a href="availableCars.jsp">Car List</a>--%>
+    <%--            <a href="register.jsp">Register</a>--%>
+    <%--            <a href="login.jsp">Login</a>--%>
+    <%--            <a href="logout.jsp">Logout</a>--%>
+    <%--        </nav>--%>
+    <%--        <a href="#" id="menu-bars" class="fas fa-bars"></a>--%>
+    <%--    </header>--%>
     <div class="taxi-image">
         <img src="images/cab.png" alt="">
     </div>
@@ -513,9 +520,9 @@
     <div class="home-content">
         <div class="inner-content">
             <h3>best in city</h3>
-            <h2>trusted cab service in county</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nihil deserunt odio repellendus dolorum suscipit excepturi placeat facilis dignissimos officiis aut nam, delectus possimus rerum consequatur similique! Deserunt, vitae. Officiis?</p>
-            <a href="#" class="booknow">book now</a>
+            <h2>Trusted Cab Service In SriLanka</h2><br>
+            <p>Looking for a reliable and affordable cab service? We provide safe, fast, and comfortable rides for all your travel needs. Book your ride now and enjoy hassle-free transportation.</p>
+            <br><a href="booking.jsp" class="booknow">book now</a>
         </div>
         <%--        <div class="inner-content">--%>
         <%--            <div class="contact-form">--%>
@@ -549,30 +556,30 @@
         <div class="tarrif-container">
             <div class="inner-box">
                 <img src="images/image1.png" alt="">
-                <h2>economy class</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum officia fugiat, autem facere iste repellendus omnis nemo dolore</p>
+                <h2>Economy Class</h2>
+                <p>Enjoy an affordable and comfortable ride with our Economy Class service. Perfect for everyday travel with budget-friendly pricing.</p>
                 <h3>price: $3 /-</h3>
-                <a href="#">order now</a>
+                <a href="availableCars.jsp">order now</a>
             </div>
         </div>
 
         <div class="tarrif-container">
             <div class="inner-box">
                 <img src="images/image1.png" alt="">
-                <h2 class="heading-yellow">economy class</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum officia fugiat, autem facere iste repellendus omnis nemo dolore</p>
+                <h2 class="heading-yellow">Business Class</h2>
+                <p>Upgrade your travel experience with extra comfort and premium service in our Business Class. Ideal for corporate travel and executive rides.</p>
                 <h3 class="yellw-section">price: $3 /-</h3>
-                <a href="#" class="btn-yellow">order now</a>
+                <a href="availableCars.jsp" class="btn-yellow">order now</a>
             </div>
         </div>
 
         <div class="tarrif-container">
             <div class="inner-box">
                 <img src="images/image1.png" alt="">
-                <h2>economy class</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum officia fugiat, autem facere iste repellendus omnis nemo dolore</p>
+                <h2>Luxury Class</h2>
+                <p>Travel in style with our Luxury Class. Experience top-notch comfort, premium vehicles, and professional chauffeurs for a superior ride.</p>
                 <h3>price: $3 /-</h3>
-                <a href="#">order now</a>
+                <a href="availableCars.jsp">order now</a>
             </div>
         </div>
     </div>
@@ -583,16 +590,15 @@
 
 <!-- fast booking -->
 <div class="fast-booking">
-    <h1 class="fast-hading">we do best</h1>
-    <h2>than you wish</h2>
+    <h1 class="fast-hading">Why Choose Us?</h1>
     <div class="inner-fast">
         <div class="booking-content">
             <div class="icon-fast">
                 <span><i class="fas fa-star"></i></span>
             </div>
             <div class="inner-fast-text">
-                <h1>fast booking</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae debitis asperiores adipisci, totam volu</p>
+                <h1>Affordable Rates</h1>
+                <p>Best price guarantee with no hidden charges.</p>
 
             </div>
 
@@ -602,8 +608,8 @@
                 <span><i class="fas fa-map-marker-alt"></i></span>
             </div>
             <div class="inner-fast-text">
-                <h1>fast booking</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae debitis asperiores adipisci, totam volu</p>
+                <h1>Safe & Secure</h1>
+                <p>Professional, verified drivers ensuring a secure journey.</p>
 
             </div>
         </div>
@@ -612,8 +618,8 @@
                 <span><i class="fas fa-map-marker-alt"></i></span>
             </div>
             <div class="inner-fast-text">
-                <h1>fast booking</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae debitis asperiores adipisci, totam volu</p>
+                <h1>Fast & Reliable</h1>
+                <p>Quick booking and on-time pickup service.</p>
 
             </div>
         </div>
@@ -622,13 +628,14 @@
                 <span><i class="fas fa-map-marker-alt"></i></span>
             </div>
             <div class="inner-fast-text">
-                <h1>fast booking</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae debitis asperiores adipisci, totam volu</p>
-
+                <h1>Multiple Ride Options</h1>
+                <p>Choose from Economy, Business, or Luxury class rides.
             </div>
         </div>
     </div>
 </div>
+
+<%@include file="WEB-INF/jspf/footer.jsp"%>
 
 <script src="script.js"></script>
 </body>

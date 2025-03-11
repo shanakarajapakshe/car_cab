@@ -6,10 +6,11 @@
     <title>My Bookings</title>
     <link rel="stylesheet" href="css/viewBookingDetails.css">
 </head>
+<%@include file="WEB-INF/jspf/header.jsp"%>
 <body>
 
 
-<h2>My Booking Details</h2>
+<h1>My Booking Details</h1>
 
 <table border="1" cellpadding="10">
     <tr>

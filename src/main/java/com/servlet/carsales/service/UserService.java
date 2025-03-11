@@ -20,7 +20,7 @@ public class UserService {
             preparedStatement.setString(4, user.getNic());
             preparedStatement.setString(5, user.getPhoneNumber());
             preparedStatement.setString(6, user.getPassword());
-            preparedStatement.setString(8, user.getRole());
+            preparedStatement.setString(7, user.getRole());
 
             preparedStatement.executeUpdate();
 

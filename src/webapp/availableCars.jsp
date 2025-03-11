@@ -4,15 +4,15 @@
 <html>
 <head>
   <title>Available Cars</title>
-  <link rel="stylesheet" href="css/availableCars.css">
+  <link rel="stylesheet" href="css/carlist.css">
 </head>
 <body>
 
 <%@include file="WEB-INF/jspf/header.jsp"%>
 
 <section class="hero">
-  <h2>Welcome to the Best Car Sales Platform!</h2>
-  <p>Find your dream car with the best deals in the market.</p>
+  <h2>Welcome to the Best Cab Booking Service!</h2>
+  <p>    Find the most reliable cabs at the best prices in your area.</p>
   <a href="#" class="btn">Explore Now</a>
 </section>
 

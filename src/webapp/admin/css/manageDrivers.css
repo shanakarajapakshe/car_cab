@@ -44,7 +44,7 @@ form input, form select {
 }
 
 button {
-    background-color: #28a745;
+    background-color: #ffc61a;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -54,7 +54,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #ffc61a;
 }
 
 table {
@@ -70,7 +70,7 @@ table th, table td {
 }
 
 table th {
-    background-color: #007bff;
+    background-color: #ffc61a;
     color: white;
 }
 

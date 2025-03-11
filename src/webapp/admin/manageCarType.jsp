@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Car Type Management</title>
-  <link rel="stylesheet" href="css/manageCars.css">
+  <link rel="stylesheet" href="css/manageCar.css">
 </head>
 <%@include file="../WEB-INF/jspf/headerForAdmin.jsp"%>
 <body>

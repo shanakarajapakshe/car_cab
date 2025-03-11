@@ -10,8 +10,8 @@
             background-color: #f5f5f5;
             margin: 20px;
         }
-        h2 {
-            color: #ff69b4;
+        h1 {
+            color: #ffc61a;
             text-align: center;
         }
         table {
@@ -27,7 +27,7 @@
             border: 1px solid #ccc;
         }
         th {
-            background-color: #ff69b4;
+            background-color: #ffc61a;
             color: white;
         }
         input[type="text"] {
@@ -42,7 +42,7 @@
         }
         button {
             padding: 10px 20px;
-            background-color: #ff69b4;
+            background-color: #ffc61a;
             color: white;
             border: none;
             border-radius: 5px;
@@ -51,13 +51,13 @@
             margin: 0 auto;
         }
         button:hover {
-            background-color: #ff1493;
+            background-color: #ffc61a;
         }
     </style>
 </head>
 <%@include file="../WEB-INF/jspf/headerForAdmin.jsp"%>
 <body>
-<h2>All Bookings</h2>
+<h1>All Bookings</h1>
 <form action="viewBookings" method="get">
     <input type="text" name="search" placeholder="Search by Order ID, Customer Email">
     <button type="submit">Search</button>
