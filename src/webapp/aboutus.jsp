@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Mega City Cab</title>
-    <link rel="stylesheet" href="styles.css">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,6 +13,7 @@
             background: #2c2c2c;
             color: #ffffff;
         }
+
         .about-container {
             max-width: 1200px;
             margin: auto;
@@ -24,7 +25,11 @@
         }
         .about-header h1 {
             font-size: 36px;
-            color: #ff9900;
+            color: #ffc61a;
+        }
+        .about-header h2 {
+
+            color: #ffffff;
         }
         .about-content {
             display: flex;
@@ -40,14 +45,18 @@
             font-size: 18px;
             line-height: 1.6;
         }
-        .about-image {
+        .contact-details {
             flex: 1 1 400px;
-            text-align: center;
+            padding: 20px;
+            text-align: left;
         }
-        .about-image img {
-            width: 100%;
-            max-width: 400px;
-            border-radius: 10px;
+        .contact-details h3 {
+            font-size: 24px;
+            color: #ffc61a;
+        }
+        .contact-details p {
+            font-size: 18px;
+            line-height: 1.6;
         }
         .cta-section {
             text-align: center;
@@ -55,7 +64,7 @@
         }
         .cta-section a {
             display: inline-block;
-            background: #ff9900;
+            background: #ffc61a;
             color: white;
             padding: 15px 30px;
             text-decoration: none;
@@ -63,7 +72,7 @@
             border-radius: 5px;
         }
         .cta-section a:hover {
-            background: #e68900;
+            background: #ffc61a;
         }
     </style>
 </head>
@@ -71,21 +80,25 @@
 <body>
 <div class="about-container">
     <div class="about-header">
-        <h1>About Mega City Cab</h1>
-        <p>Reliable, Safe, and Affordable Cab Services in Sri Lanka</p>
+        <h1>About Us</h1>
+        <h2>Reliable, Safe, and Affordable Cab Services in Sri Lanka</h2>
     </div>
     <div class="about-content">
         <div class="about-text">
             <p>At Mega City Cab, we are committed to providing top-notch taxi services across Sri Lanka. Our mission is to offer a comfortable, reliable, and affordable transportation experience for all our customers. Whether you need a quick ride across town or a long-distance journey, we have you covered.</p>
             <p>With a fleet of well-maintained vehicles and professional drivers, we ensure safety and punctuality at every step. We prioritize customer satisfaction and aim to make every ride a seamless experience.</p>
         </div>
-        <div class="about-image">
-            <img src="images/about-us.jpg" alt="Mega City Cab Service">
+        <div class="contact-details">
+            <h3>Contact Us</h3>
+            <p><strong>Phone:</strong> +94 123 456 789</p>
+            <p><strong>Email:</strong> info@megacitycab.lk</p>
+            <p><strong>Address:</strong> 123, Main Street, Colombo, Sri Lanka</p>
         </div>
     </div>
     <div class="cta-section">
         <a href="booking.jsp">Book a Ride Now</a>
     </div>
 </div>
+<%@include file="WEB-INF/jspf/footer.jsp"%>
 </body>
 </html>
