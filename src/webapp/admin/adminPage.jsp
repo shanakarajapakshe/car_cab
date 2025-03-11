@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: DELL
-  Date: 1/21/2025
-  Time: 5:31 AM
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -57,7 +51,7 @@
         }
 
         .card button {
-            background-color: #007BFF;
+            background-color: #ffc61a;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -68,7 +62,7 @@
         }
 
         .card button:hover {
-            background-color: #0056b3;
+            background-color: #ffc61a;
         }
     </style>
 </head>
