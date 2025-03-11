@@ -16,7 +16,7 @@ body {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background: #ff69b4;
+    background: #ffc61a;
     color: white;
 }
 
@@ -33,7 +33,7 @@ body {
 .hero .btn {
     padding: 10px 20px;
     background: white;
-    color: #ff69b4;
+    color: #ffc61a;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -42,7 +42,7 @@ body {
 }
 
 .hero .btn:hover {
-    background: #e059a6;
+    background: #ffc61a;
     color: white;
 }
 
