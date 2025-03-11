@@ -1,4 +1,10 @@
-
+<%--
+  Created by IntelliJ IDEA.
+  User: DELL
+  Date: 1/20/2025
+  Time: 12:23 PM
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 
@@ -9,19 +15,32 @@
   <title>Login Page</title>
   <style>
     /* General Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
+    /** {*/
+    /*  margin: 0;*/
+    /*  padding: 0;*/
+    /*  box-sizing: border-box;*/
+    /*  font-family: Arial, sans-serif;*/
+    /*}*/
+
+    /*body {*/
+    /*  display: flex;*/
+    /*  justify-content: center;*/
+    /*  align-items: center;*/
+    /*  min-height: 100vh;*/
+    /*  background-color: #000000;*/
+    /*}*/
 
     body {
+
+      background-color: rgba(87, 86, 86, 0.58); /* Optional */
+
+    }
+
+    .login-wrapper {
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
-      background-color: #f9f9f9;
+      height: calc(100vh - 60px); /* Adjust based on your navbar height */
     }
 
     .login-container {
@@ -31,6 +50,7 @@
       width: 350px;
       padding: 30px;
     }
+
 
     .login-container h1 {
       text-align: center;
@@ -55,15 +75,15 @@
     }
 
     .login-container input:focus {
-      border-color: #ff69b4;
+      border-color: #ffc61a;
       outline: none;
-      box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+      box-shadow: 0 0 5px rgba(255, 198, 26, 0.5);
     }
 
     .login-container button {
       width: 100%;
       padding: 10px;
-      background-color: #ff69b4;
+      background-color: #ffc61a;
       color: white;
       border: none;
       border-radius: 5px;
@@ -72,7 +92,7 @@
     }
 
     .login-container button:hover {
-      background-color: #e059a6;
+      background-color: #ffc61a;
     }
 
     .login-container .footer {
@@ -82,7 +102,7 @@
     }
 
     .login-container .footer a {
-      color: #ff69b4;
+      color: #ffc61a;
       text-decoration: none;
     }
 
@@ -96,29 +116,30 @@
 <body>
 
 
+<div class="login-wrapper">
+  <div class="login-container">
+    <h1>Login</h1>
 
-<div class="login-container">
-  <h1>Login</h1>
+    <% String errorMessage = (String) request.getAttribute("errorMessage"); %>
+    <% if (errorMessage != null) { %>
+    <div style="color: red; margin-bottom: 15px; text-align: center;">
+      <%= errorMessage %>
+    </div>
+    <% } %>
 
-  <% String errorMessage = (String) request.getAttribute("errorMessage"); %>
-  <% if (errorMessage != null) { %>
-  <div style="color: red; margin-bottom: 15px; text-align: center;">
-    <%= errorMessage %>
-  </div>
-  <% } %>
+    <form action="login" method="post">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-  <form action="login" method="post">
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
 
-    <label for="password">Password</label>
-    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      <button type="submit">Login</button>
+    </form>
 
-    <button type="submit">Login</button>
-  </form>
-
-  <div class="footer">
-    <p>Don't have an account? <a href="register.jsp">Sign up</a></p>
+    <div class="footer">
+      <p>Don't have an account? <a href="register.jsp">Sign up</a></p>
+    </div>
   </div>
 </div>
 </body>
