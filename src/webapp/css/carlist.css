@@ -17,7 +17,7 @@ body {
     text-align: center;
     padding: 50px 20px;
     background: #ffc61a;
-    color: white;
+    color: #000000;
 }
 
 .hero h2 {
@@ -32,7 +32,7 @@ body {
 
 .hero .btn {
     padding: 10px 20px;
-    background: white;
+    background: #000000;
     color: #ffc61a;
     border: none;
     border-radius: 5px;
@@ -43,7 +43,7 @@ body {
 
 .hero .btn:hover {
     background: #ffc61a;
-    color: white;
+    color: #000000;
 }
 
 /* Car List */

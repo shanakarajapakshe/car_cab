@@ -9,117 +9,6 @@
     <link rel="manifest" href="images/favicon_io/site.webmanifest">
     <title>Mega City Cab - Home</title>
     <style>
-        /** {*/
-        /*    margin: 0;*/
-        /*    padding: 0;*/
-        /*    box-sizing: border-box;*/
-        /*    font-family: Arial, sans-serif;*/
-        /*}*/
-
-        /*body {*/
-        /*    background-color: #f4f4f4;*/
-        /*    color: #333;*/
-        /*}*/
-
-        /*.hero {*/
-        /*    text-align: center;*/
-        /*    padding: 60px 20px;*/
-        /*    background: #ff69b4;*/
-        /*    color: white;*/
-        /*}*/
-
-        /*.hero h2 {*/
-        /*    font-size: 40px;*/
-        /*    margin-bottom: 15px;*/
-        /*}*/
-
-        /*.hero p {*/
-        /*    font-size: 18px;*/
-        /*    margin-bottom: 30px;*/
-        /*}*/
-
-        /*.hero .btn {*/
-        /*    padding: 10px 25px;*/
-        /*    background: white;*/
-        /*    color: #ff69b4;*/
-        /*    border: none;*/
-        /*    border-radius: 5px;*/
-        /*    text-decoration: none;*/
-        /*    cursor: pointer;*/
-        /*    transition: 0.3s;*/
-        /*}*/
-
-        /*.hero .btn:hover {*/
-        /*    background: #e059a6;*/
-        /*    color: white;*/
-        /*}*/
-
-        /*.options {*/
-        /*    display: flex;*/
-        /*    justify-content: center;*/
-        /*    gap: 20px;*/
-        /*    margin: 40px;*/
-        /*}*/
-
-        /*.options a {*/
-        /*    padding: 15px 30px;*/
-        /*    background: #333;*/
-        /*    color: white;*/
-        /*    text-decoration: none;*/
-        /*    border-radius: 10px;*/
-        /*    transition: 0.3s;*/
-        /*}*/
-
-        /*.options a:hover {*/
-        /*    background: #ff69b4;*/
-        /*}*/
-
-        /*.cab-list {*/
-        /*    display: grid;*/
-        /*    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
-        /*    gap: 20px;*/
-        /*    padding: 40px;*/
-        /*}*/
-
-        /*.cab-item {*/
-        /*    background: white;*/
-        /*    border-radius: 10px;*/
-        /*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
-        /*    text-align: center;*/
-        /*    padding: 20px;*/
-        /*}*/
-
-        /*.cab-item img {*/
-        /*    width: 100%;*/
-        /*    height: 200px;*/
-        /*    object-fit: cover;*/
-        /*    border-bottom: 2px solid #ff69b4;*/
-        /*}*/
-
-        /*.cab-item h3 {*/
-        /*    margin: 15px 0;*/
-        /*    color: #333;*/
-        /*}*/
-
-        /*.cab-item p {*/
-        /*    color: #666;*/
-        /*    margin: 10px 0;*/
-        /*}*/
-
-        /*.cab-item .btn {*/
-        /*    padding: 10px 20px;*/
-        /*    background: #ff69b4;*/
-        /*    color: white;*/
-        /*    border: none;*/
-        /*    border-radius: 5px;*/
-        /*    text-decoration: none;*/
-        /*    transition: 0.3s;*/
-        /*    cursor: pointer;*/
-        /*}*/
-
-        /*.cab-item .btn:hover {*/
-        /*    background: #e059a6;*/
-        /*}*/
 
         *{
             margin: 0;
@@ -237,13 +126,7 @@
         .form-heading h1{
             color: white;
         }
-        .contact-form{
-            width: 45rem;
-            background: white;
-            text-align: center;
-            padding: 2rem 1rem;
-            margin: 0 auto;
-        }
+
         .form-fields input{
             padding: 2rem ;
             border: none;
@@ -451,65 +334,12 @@
 </head>
 <body>
 
-<%--<%@include file="WEB-INF/jspf/header.jsp"%>--%>
-
-<%--<section class="hero">--%>
-<%--    <h2>Welcome to Mega City Cab Service!</h2>--%>
-<%--    <p>Your trusted ride partner across Colombo City.</p>--%>
-<%--    <a href="booking.jsp" class="btn">Book a Ride</a>--%>
-<%--</section>--%>
-
-<%--<section class="options">--%>
-<%--    <a href="#book">Book a Cab</a>--%>
-<%--    <a href="#view">View Bookings</a>--%>
-<%--    <a href="#contact">Contact Us</a>--%>
-<%--</section>--%>
-
-<%--<section class="cab-list">--%>
-<%--    <div class="cab-item">--%>
-<%--        <img src="images/cr1.jpeg" alt="Sedan">--%>
-<%--        <h3>Sedan</h3>--%>
-<%--        <p>Comfortable city ride</p>--%>
-<%--        <a href="#" class="btn">Book Now</a>--%>
-<%--    </div>--%>
-
-<%--    <div class="cab-item">--%>
-<%--        <img src="images/cr1.jpeg" alt="SUV">--%>
-<%--        <h3>SUV</h3>--%>
-<%--        <p>Spacious for family trips</p>--%>
-<%--        <a href="#" class="btn">Book Now</a>--%>
-<%--    </div>--%>
-
-<%--    <div class="cab-item">--%>
-<%--        <img src="images/cr1.jpeg" alt="Luxury">--%>
-<%--        <h3>Luxury</h3>--%>
-<%--        <p>Premium experience</p>--%>
-<%--        <a href="#" class="btn">Book Now</a>--%>
-<%--    </div>--%>
-<%--</section>--%>
-
-<%--</body>--%>
-
 <div class="main-container">
     <div class="background-text">
         <h2>book a <span>cab now</span></h2>
     </div>
     <%@include file="WEB-INF/jspf/header.jsp"%>
-    <%--    <header class="header">--%>
-    <%--        <a href="#" id="logo">--%>
-    <%--            <img src="images/CabHUB.png" alt="Logo" width="157"></a>--%>
 
-    <%--        <nav class="navbar">--%>
-    <%--            <a href="#">Home</a>--%>
-    <%--            <a href="#">About Us</a>--%>
-    <%--            <a href="../../target/viewBookingDetails.jsp">Booking Details</a>--%>
-    <%--            <a href="availableCars.jsp">Car List</a>--%>
-    <%--            <a href="register.jsp">Register</a>--%>
-    <%--            <a href="login.jsp">Login</a>--%>
-    <%--            <a href="logout.jsp">Logout</a>--%>
-    <%--        </nav>--%>
-    <%--        <a href="#" id="menu-bars" class="fas fa-bars"></a>--%>
-    <%--    </header>--%>
     <div class="taxi-image">
         <img src="images/cab.png" alt="">
     </div>
@@ -524,26 +354,7 @@
             <p>Looking for a reliable and affordable cab service? We provide safe, fast, and comfortable rides for all your travel needs. Book your ride now and enjoy hassle-free transportation.</p>
             <br><a href="booking.jsp" class="booknow">book now</a>
         </div>
-        <%--        <div class="inner-content">--%>
-        <%--            <div class="contact-form">--%>
-        <%--                <div class="form-heading">--%>
-        <%--                    <h1>book a cab</h1>--%>
-        <%--                </div>--%>
-        <%--                <div class="form-fields">--%>
-        <%--                    <input type="text" placeholder="name">--%>
-        <%--                    <input type="text" placeholder="phone">--%>
-        <%--                    <input type="text" placeholder="when">--%>
-        <%--                    <input type="text" placeholder="date">--%>
-        <%--                    <input type="text" placeholder="start">--%>
-        <%--                    <input type="text" placeholder="end">--%>
-        <%--                </div>--%>
-        <%--                <div class="submit">--%>
-        <%--                    <a href="#">Submit</a>--%>
-        <%--                </div>--%>
 
-        <%--            </div>--%>
-
-        <%--        </div>--%>
     </div>
 </div>
 <!-- home section ended -->
@@ -558,7 +369,7 @@
                 <img src="images/image1.png" alt="">
                 <h2>Economy Class</h2>
                 <p>Enjoy an affordable and comfortable ride with our Economy Class service. Perfect for everyday travel with budget-friendly pricing.</p>
-                <h3>price: $3 /-</h3>
+                <h3>price: 1,825 LKR /-</h3>
                 <a href="availableCars.jsp">order now</a>
             </div>
         </div>
@@ -568,7 +379,7 @@
                 <img src="images/image1.png" alt="">
                 <h2 class="heading-yellow">Business Class</h2>
                 <p>Upgrade your travel experience with extra comfort and premium service in our Business Class. Ideal for corporate travel and executive rides.</p>
-                <h3 class="yellw-section">price: $3 /-</h3>
+                <h3 class="yellw-section">price: 3,650 LKR /-</h3>
                 <a href="availableCars.jsp" class="btn-yellow">order now</a>
             </div>
         </div>
@@ -578,7 +389,7 @@
                 <img src="images/image1.png" alt="">
                 <h2>Luxury Class</h2>
                 <p>Travel in style with our Luxury Class. Experience top-notch comfort, premium vehicles, and professional chauffeurs for a superior ride.</p>
-                <h3>price: $3 /-</h3>
+                <h3>price: 7,300 LKR /-</h3>
                 <a href="availableCars.jsp">order now</a>
             </div>
         </div>

@@ -103,8 +103,8 @@
     <nav class="navbar">
         <a href="index.jsp">Home</a>
         <a href="aboutus.jsp">About Us</a>
+        <a href="availableCars.jsp">Available Cars</a>
         <a href="viewBookingDetails.jsp">Booking Details</a>
-        <a href="availableCars.jsp">Car List</a>
         <a href="register.jsp">Register</a>
         <a href="login.jsp">Login</a>
         <a href="logout.jsp">Logout</a>
