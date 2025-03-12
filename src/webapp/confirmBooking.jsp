@@ -29,8 +29,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Confirm Booking - Payment</title>
-  <link rel="stylesheet" href="css/confirmBooking.css">
+  <title>Mega City Cab - Confirm Booking - Payment</title>
+  <link rel="stylesheet" href="css/confirmBook.css">
 
 </head>
 <body>
@@ -74,6 +74,11 @@
 
     <button type="submit">Pay & Confirm Booking</button>
   </form>
+  <form action="ConfirmBookingServlet" method="post">
+    <!-- Payment form fields -->
+    <button type="submit">Pay & Confirm Booking</button>
+  </form>
+
 </div>
 </body>
 </html>

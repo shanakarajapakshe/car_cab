@@ -3,8 +3,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Car Booking</title>
-    <link rel="stylesheet" href="css/booking.css">
+    <title>Mega City Cab - Car Booking</title>
+    <link rel="stylesheet" href="css/bookings.css">
 </head>
 <body>
 

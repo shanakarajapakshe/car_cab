@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>Available Cars</title>
+  <title>Mega City Cab - Available Cars</title>
   <link rel="stylesheet" href="css/carlist.css">
 </head>
 <body>
@@ -84,6 +84,7 @@
   <p>No available cars at the moment.</p>
   <% } %>
 </section>
-
+<%--<%@include file="WEB-INF/jspf/footer.jsp"%>--%>
 </body>
+
 </html>

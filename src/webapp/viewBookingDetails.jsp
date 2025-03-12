@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>My Bookings</title>
+    <title>Mega City Cab - My Bookings</title>
     <link rel="stylesheet" href="css/viewBookingDetails.css">
 </head>
 <%@include file="WEB-INF/jspf/header.jsp"%>

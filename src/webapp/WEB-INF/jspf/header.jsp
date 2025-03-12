@@ -3,41 +3,7 @@
 
 <style>
 
-    /*{*/
-    /*    margin: 0;*/
-    /*    padding: 0;*/
-    /*    box-sizing: border-box;*/
-    /*    font-family: Arial, sans-serif;*/
-    /*}*/
 
-
-    /*header {*/
-    /*    background-color: #333;*/
-    /*    color: white;*/
-    /*    padding: 15px 20px;*/
-    /*    display: flex;*/
-    /*    justify-content: space-between;*/
-    /*    align-items: center;*/
-    /*}*/
-
-    /*header h1 {*/
-    /*    font-size: 24px;*/
-    /*}*/
-
-    /*nav {*/
-    /*    display: flex;*/
-    /*    gap: 20px;*/
-    /*}*/
-
-    /*nav a {*/
-    /*    color: white;*/
-    /*    text-decoration: none;*/
-    /*    font-weight: bold;*/
-    /*}*/
-
-    /*nav a:hover {*/
-    /*    text-decoration: underline;*/
-    /*}*/
     *{
         margin: 0;
         padding: 0;
@@ -83,21 +49,6 @@
 
 
 
-<%--<header>--%>
-<%--    <h1>City Cab</h1>--%>
-<%--    <nav>--%>
-<%--        <a href="index.jsp">Home</a>--%>
-<%--        <a href="#">About Us</a>--%>
-<%--        <a href="availableCars.jsp">Car List</a>--%>
-<%--        <a href="login.jsp">Login</a>--%>
-<%--        <a href="register.jsp">Register</a>--%>
-<%--        <a href="viewBookingDetails.jsp">Bookin Details</a>--%>
-<%--        <a href="logout.jsp">--%>
-<%--            <button>Logout</button>--%>
-<%--        </a>--%>
-
-<%--    </nav>--%>
-<%--</header>--%>
 <header class="header">
     <a href="#" id="logo"><img src="images/CabHUB.png" alt=""></a>
     <nav class="navbar">
@@ -107,6 +58,7 @@
         <a href="viewBookingDetails.jsp">Booking Details</a>
         <a href="register.jsp">Register</a>
         <a href="login.jsp">Login</a>
+        <a href="help.jsp">Help</a>
         <a href="logout.jsp">Logout</a>
     </nav>
     <a href="#" id="menu-bars" class="fas fa-bars"></a>

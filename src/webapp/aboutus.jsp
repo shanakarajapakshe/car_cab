@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Mega City Cab</title>
+    <title>Mega City Cab - About Us</title>
 
     <style>
         body {
@@ -77,6 +77,7 @@
     </style>
 </head>
 <%@include file="WEB-INF/jspf/header.jsp"%>
+
 <body>
 <div class="about-container">
     <div class="about-header">

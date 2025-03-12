@@ -87,15 +87,17 @@
         <button onclick="location.href='manageDrivers.jsp'">Go to Page</button>
     </div>
 
-    <div class="card">
-        <h2>View Users</h2>
-        <button onclick="location.href='viewUsers.jsp'">Go to Page</button>
-    </div>
 
     <div class="card">
         <h2>View Bookings</h2>
         <button onclick="location.href='viewBookings.jsp'">Go to Page</button>
     </div>
+
+    <div class="card">
+        <h2>Logout</h2>
+        <button onclick="location.href='../logout.jsp'">Go to Page</button>
+    </div>
+
 </div>
 
 </body>

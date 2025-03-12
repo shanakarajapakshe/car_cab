@@ -7,6 +7,7 @@
     <link rel="icon" type="images/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="images/favicon_io/site.webmanifest">
+
     <title>Mega City Cab - Home</title>
     <style>
 
@@ -29,35 +30,6 @@
             height: 100vh;
         }
 
-
-        .header{
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            padding: 2rem 7%;
-            align-items: center;
-        }
-        .header .navbar a{
-            font-size: 1.7rem;
-            margin-left: 1rem;
-            color: white;
-            text-decoration: none;
-        }
-        .header .navbar a:hover{
-            background: #ffc61a;
-            padding: .5rem 3rem;
-            border-radius: 15px;
-        }
-        #menu-bars{
-            color: white;
-            font-size: 2rem;
-            display: none;
-
-        }
-        .navbar.active{
-            top: 10%;
-        }
-
         .background-text h2{
             color: white;
             font-size: 50px;
@@ -70,6 +42,18 @@
         .background-text h2 span{
             color: #ffc61a;
         }
+        /*.background-text h1{*/
+        /*    color: white;*/
+        /*    font-size: 60px;*/
+        /*    position: absolute;*/
+        /*    top: 40%;*/
+        /*    left: 50%;*/
+        /*    transform: translate(-50%, -50%);*/
+
+        /*}*/
+        /*.background-text h1 span{*/
+        /*    color: #ffc61a;*/
+        /*}*/
         .taxi-image{
             width: 50%;
             margin: 0 auto;
@@ -327,6 +311,7 @@
                 width: 100%;
                 text-align: center;
             }
+
         }
 
 
@@ -336,9 +321,12 @@
 
 <div class="main-container">
     <div class="background-text">
+<%--        <h1>Mega City <span>Cab</span></h1>--%>
         <h2>book a <span>cab now</span></h2>
     </div>
     <%@include file="WEB-INF/jspf/header.jsp"%>
+<%--    <%@ include file="WEB-INF/jspf/help.jsp" %>--%>
+
 
     <div class="taxi-image">
         <img src="images/cab.png" alt="">
@@ -366,7 +354,7 @@
     <div class="inner-tarrif">
         <div class="tarrif-container">
             <div class="inner-box">
-                <img src="images/image1.png" alt="">
+
                 <h2>Economy Class</h2>
                 <p>Enjoy an affordable and comfortable ride with our Economy Class service. Perfect for everyday travel with budget-friendly pricing.</p>
                 <h3>price: 1,825 LKR /-</h3>
@@ -376,7 +364,7 @@
 
         <div class="tarrif-container">
             <div class="inner-box">
-                <img src="images/image1.png" alt="">
+
                 <h2 class="heading-yellow">Business Class</h2>
                 <p>Upgrade your travel experience with extra comfort and premium service in our Business Class. Ideal for corporate travel and executive rides.</p>
                 <h3 class="yellw-section">price: 3,650 LKR /-</h3>
@@ -386,7 +374,7 @@
 
         <div class="tarrif-container">
             <div class="inner-box">
-                <img src="images/image1.png" alt="">
+
                 <h2>Luxury Class</h2>
                 <p>Travel in style with our Luxury Class. Experience top-notch comfort, premium vehicles, and professional chauffeurs for a superior ride.</p>
                 <h3>price: 7,300 LKR /-</h3>
@@ -448,6 +436,6 @@
 
 <%@include file="WEB-INF/jspf/footer.jsp"%>
 
-<script src="script.js"></script>
+
 </body>
 </html>

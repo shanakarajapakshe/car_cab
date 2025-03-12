@@ -6,23 +6,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
+  <title>Mega City Cab - Login</title>
   <style>
-    /* General Reset */
-    /** {*/
-    /*  margin: 0;*/
-    /*  padding: 0;*/
-    /*  box-sizing: border-box;*/
-    /*  font-family: Arial, sans-serif;*/
-    /*}*/
 
-    /*body {*/
-    /*  display: flex;*/
-    /*  justify-content: center;*/
-    /*  align-items: center;*/
-    /*  min-height: 100vh;*/
-    /*  background-color: #000000;*/
-    /*}*/
 
     body {
 
@@ -107,6 +93,7 @@
 </head>
 
 <%@include file="WEB-INF/jspf/header.jsp"%>
+
 <body>
 
 
