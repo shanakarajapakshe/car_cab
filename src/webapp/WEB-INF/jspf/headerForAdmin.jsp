@@ -55,8 +55,8 @@
     <a href="../admin/adminPage.jsp">Home</a>
     <a href="../admin/viewBookings.jsp">Booking Details</a>
     <a href="../admin/manageCars.jsp">Manage Cars</a>
+    <a href="../admin/manageCarType.jsp">Manage Car Type</a>
     <a href="../admin/manageDrivers.jsp">Manage Drivers</a>
-<%--    <a href="../admin/viewUsers.jsp">View Users</a>--%>
     <a href="../logout.jsp">Logout</a>
   </nav>
   <a href="#" id="menu-bars" class="fas fa-bars"></a>
