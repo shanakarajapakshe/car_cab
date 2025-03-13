@@ -5,6 +5,7 @@
 <head>
     <title>Mega City Cab - Car Booking</title>
     <link rel="stylesheet" href="css/bookings.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 
@@ -66,8 +67,29 @@
             document.getElementById("totalPrice").innerText = "";
         }
     }
+
     function cancelBooking() {
-        window.location.href = "availableCars.jsp";
+        Swal.fire({
+            title: "Are you sure?",
+            text: "Your booking will be canceled!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#d33",
+            cancelButtonColor: "#ffc61a",
+            confirmButtonText: "Yes, cancel it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire({
+                    title: "Canceled!",
+                    text: "Your booking has been canceled.",
+                    icon: "success",
+                    timer: 2000,
+                    showConfirmButton: false
+                }).then(() => {
+                    window.location.href = "availableCars.jsp";
+                });
+            }
+        });
     }
 </script>
 

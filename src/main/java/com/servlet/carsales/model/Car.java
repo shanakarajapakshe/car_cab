@@ -9,6 +9,7 @@ public class Car {
     private String picture;
     private double chargePerKm;
 
+
     public Car(int id, String carNumber, String model, String type, String status, String picture, double chargePerKm) {
         this.id = id;
         this.carNumber = carNumber;
