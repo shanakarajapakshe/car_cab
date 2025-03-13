@@ -25,7 +25,7 @@ public class BookingServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession(false);
 
-        // Check if user is logged in
+
         if (session == null || session.getAttribute("email") == null) {
             response.sendRedirect("login.jsp");
             return;
