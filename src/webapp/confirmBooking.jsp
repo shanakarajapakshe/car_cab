@@ -73,11 +73,15 @@
     <input type="hidden" name="distance" value="<%= distance %>">
 
     <button type="submit">Pay & Confirm Booking</button>
+    <button type="button" onclick="cancelBooking()" style="background-color: red; color: white;">Cancel Booking</button>
   </form>
-  <form action="ConfirmBookingServlet" method="post">
-    <!-- Payment form fields -->
-    <button type="submit">Pay & Confirm Booking</button>
   </form>
+  <script>
+    function cancelBooking() {
+      window.location.href = "booking.jsp";
+    }
+
+  </script>
 
 </div>
 </body>

@@ -51,6 +51,7 @@
     <p id="totalPrice" style="font-weight: bold; color: green;"></p>
 
     <button type="submit">Start Booking</button>
+    <button type="button" onclick="cancelBooking()" style="background-color: red; color: white;">Cancel Booking</button>
 </form>
 
 <script>
@@ -64,6 +65,9 @@
         } else {
             document.getElementById("totalPrice").innerText = "";
         }
+    }
+    function cancelBooking() {
+        window.location.href = "availableCars.jsp";
     }
 </script>
 
