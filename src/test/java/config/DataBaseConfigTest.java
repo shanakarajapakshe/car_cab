@@ -1,4 +1,4 @@
-package config;  // Ensure this matches your package structure
+package config;
 
 import com.servlet.carsales.db.DBConnection;
 import junit.framework.TestCase;

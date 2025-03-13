@@ -1,14 +1,11 @@
 package service;
-
 import com.servlet.carsales.db.DBConnection;
 import junit.framework.TestCase;
 import org.mindrot.jbcrypt.BCrypt;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
 public class LoginTest extends TestCase {
     private Connection connection;
 
@@ -18,7 +15,6 @@ public class LoginTest extends TestCase {
         connection = DBConnection.getConnection();
         createTestUser();
     }
-
     @Override
     protected void tearDown() throws Exception {
         super.tearDown();
@@ -77,10 +73,9 @@ public class LoginTest extends TestCase {
         return false;
     }
 
-    // 🔹 Helper method to create a test user
     private void createTestUser() {
         try {
-            deleteTestUser(); // Ensure no duplicate test users
+            deleteTestUser();
 
             String hashedPassword = BCrypt.hashpw("password123", BCrypt.gensalt());
 
@@ -102,8 +97,6 @@ public class LoginTest extends TestCase {
         }
     }
 
-
-    // 🔹 Helper method to delete the test user
     private void deleteTestUser() {
         try {
             PreparedStatement stmt = connection.prepareStatement(
